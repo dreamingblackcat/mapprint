@@ -1,0 +1,42 @@
+{
+  "map_id": "2025-sagaing-earthquake",
+  "map_title": "2025 Myanmar - Sagaing Earthquake Information",
+  "map_title_en": "2025 Myanmar - Sagaing Earthquake Information",
+  "map_description": "This map is designed for printing, allowing those without internet access to obtain information from social media. Once you set the map to the desired place, you can print it in A4 size. It shows a list of information for that spot, such as gas stations or water distribution points. Just print it and give it to anyone who needs it!",
+  "map_description_en": "This map is designed for printing, allowing those without internet access to obtain information from social media. Once you set the map to the desired place, you can print it in A4 size. It shows a list of information for that spot, such as gas stations or water distribution points. Just print it and give it to anyone who needs it!",
+  "map_image": "ogp_2025-sagaing-earthquake.png",
+  "sources": [
+    {
+      "id": "mandalay",
+      "url": "https://www.google.com/maps/d/kml?forcekml=1&mid=1Y1QHMrA8p_bne2K2Qcwv0h7PAAS8Fj8",
+      "link": "https://www.google.com/maps/d/viewer?mid=1Y1QHMrA8p_bne2K2Qcwv0h7PAAS8Fj8&ll=21.936962611153273%2C96.09369535&z=18",
+      "type": "kml",
+      "title": "Mandalay",
+      "show": true
+    }
+  ],
+  "default_hash": "96.0946626,21.9488767 96.0921736,21.9198162 96.1501093,21.9188607 96.1513538,21.9493145 96.0946626,21.9488767",
+  "center": [
+    96.0937812,
+    21.938744
+  ],
+  "type": "KML",
+  "layer_settings": {
+    "Donation groups": {
+      "name": "Donation groups",
+      "name_en": "Donation groups",
+      "color": "#4f4f5a",
+      "bg_color": "#B7B7BE",
+      "icon_class": "fa-solid fa-map-pin",
+      "class": "layer_gs_ok"
+    },
+    "Free charging places": {
+      "name": "Free charging places",
+      "name_en": "Free charging places",
+      "color": "#276445",
+      "bg_color": "#A4C1B0",
+      "icon_class": "fa-solid fa-street-view",
+      "class": "layer_gs_undefined"
+    }
+  }
+}

@@ -12,7 +12,7 @@
           .index-item-inner
             nuxt-link(:to="localePath('/map/' + map.map_id)", v-bind:key='index')
               .index-link-inner
-                img(:src='"https://kamimap.com/images/" + (map.map_image ? map.map_image : "logo.png")' alt='')
+                img(:src='baseUrl + "/images/" + (map.map_image ? map.map_image : "logo.png")' alt='')
                 .index-item-title(v-if="$i18n.locale === 'ja'")
                   span
                     | {{map.map_title}}
@@ -65,6 +65,7 @@ export default {
     return {
       maps,
       isOpenExplain: false,
+      baseUrl: process.env.NODE_ENV === "production" ? "https://kamimap.com" : "http://localhost:3000",
     };
   },
   head() {
@@ -112,4 +113,3 @@ export default {
   },
 };
 </script>
-
