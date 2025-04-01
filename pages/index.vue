@@ -65,7 +65,7 @@ export default {
     return {
       maps,
       isOpenExplain: false,
-      baseUrl: process.env.NODE_ENV === "production" ? "https://kamimap.com" : "http://localhost:3000",
+      baseUrl: process.env.DEPLOY_ENV === "production" ? "https://kamimap.com" : "http://localhost:3000",
     };
   },
   head() {
