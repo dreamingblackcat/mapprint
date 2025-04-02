@@ -53,7 +53,9 @@ import Modal from "~/components/Modal.vue";
 
 const maps = [];
 
-mapList.forEach((name) => {
+mapList.filter((map) => {
+  return map === "2025-sagaing-earthquake.json";
+}).forEach((name) => {
   maps.push(require("~/assets/config/" + name));
 });
 
