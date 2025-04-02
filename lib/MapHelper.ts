@@ -221,7 +221,7 @@ export function readCategoryOfFolder(folder:Element, document:Document):Category
   let iconUrl;
   try {
     name = folder.getElementsByTagName("name")[0].textContent!;
-    let styleUrl:string = folder.getElementsByTagName("styleUrl")[0].textContent!;
+    let styleUrl:string = folder.getElementsByTagName("styleUrl")[0]?.textContent!;
     if (styleUrl){
       let styles:NodeListOf<Element> = document.querySelectorAll(styleUrl + " Pair")!;
       if (styles.length > 0) {
@@ -253,4 +253,3 @@ export function readCategoryOfFolder(folder:Element, document:Document):Category
   return {name:name, color:color, iconUrl: iconUrl};
 
 }
-
