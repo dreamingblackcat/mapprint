@@ -22,11 +22,19 @@
   ],
   "type": "KML",
   "layer_settings": {
-    "Charging stations": {
-      "name": "Charging stations",
-      "name_en": "Charging stations",
-      "color": "#276445",
-      "bg_color": "#A4C1B0",
+    "Charging Stations": {
+      "name": "Charging Stations",
+      "name_en": "Charging Stations",
+      "color": "#6D4615",
+      "bg_color": "#C1B17E",
+      "icon_class": "fas fa-plug",
+      "class": "layer_charger"
+    },
+    "Community Services": {
+      "name": "Community Services",
+      "name_en": "Community Services",
+      "color": "#285797",
+      "bg_color": "#A3BBDA",
       "icon_class": "fa-solid fa-street-view",
       "class": "layer_gs_ok"
     }
